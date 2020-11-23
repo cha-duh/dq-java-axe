@@ -68,7 +68,7 @@ public class JavaAxeTests {
         long time = new Date().getTime();
         Assert.assertNotEquals(time, timeBeforeScan);
         Assert.assertTrue(time > timeBeforeScan);
-        System.out.print(time - timeBeforeScan);*/
+        System.out.print(time - timeBeforeScan);
     }
 
     @After
@@ -76,9 +76,12 @@ public class JavaAxeTests {
         EnvManager.shutDownDriver();
     }
 
-    public void printUtil(List<Rule> items) {
+    private void printUtil(List<Rule> items) {
         for (Rule item : items) {
-            System.out.println(item.toString());
+            System.out.println(item.getId());
+            System.out.println(item.getHelp());
+            System.out.println(item.getHelpUrl());
+            System.out.println();
         }
     }
 }
