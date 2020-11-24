@@ -10,8 +10,9 @@ import org.junit.Test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 import com.deque.html.axecore.selenium.AxeBuilder;
 import com.deque.html.axecore.axeargs.AxeRunOptions;
@@ -25,45 +26,33 @@ public class JavaAxeTests {
 
     @Before
     public void startBrowser() {
-
         // update this string for alternate tests
         // String testURL = "localhost:5005"
         String testURL = "https://dequeuniversity.com/demo/mars/";
         EnvManager.initWebDriver();
         this.webDriver = RunEnvironment.getWebDriver();
         this.webDriver.get(testURL);
-        this.wait.until(drv -> drv.findElement(By.cssSelector("main")));
-    }
-
-    @Deprecated
-    public void demo() {
-        WebDriver driver = RunEnvironment.getWebDriver();
-        driver.get("https://www.blazemeter.com/selenium");
-        String homeUrl = driver.findElement(By.cssSelector("div#logo> a#logo_image ")).getAttribute("href");
-        Assert.assertEquals(homeUrl, "https://www.blazemeter.com/");
-    }
-
-    @Test
-    public void mainElementLoaded() {
-        WebElement mainElement = wait.until(drv -> drv.findElement(By.cssSelector("main")));
-        AxeBuilder builder = new AxeBuilder();
-        Results results = builder.analyze(this.webDriver, mainElement);
-        Assert.assertNotNull(results);
+        this.wait = new WebDriverWait(webDriver, 20);
     }
 
     @Test
     public void axe() {
 
-        //this.webDriver.get(testURL);
+        // wait until the main-nav element is loaded or fail
+        WebElement mainNav = null;
+        try {
+            mainNav = wait.until(presenceOfElementLocated(By.cssSelector("#main-nav")));
+        } finally {
+            Assert.assertNotNull(mainNav);
+        }
 
+        // set up for the axe analysis
         AxeRunOptions runOptions = new AxeRunOptions();
         runOptions.setXPath(true);
-
         AxeBuilder builder = new AxeBuilder().withOptions(runOptions);
-                //.withTags(Arrays.asList("wcag2a", "wcag412"));
 
         // run analyze and pull out violations
-        Results results = builder.analyze(webDriver);
+        Results results = builder.analyze(this.webDriver);
         List<Rule> violations = results.getViolations();
         int vSize = violations.size();
 
