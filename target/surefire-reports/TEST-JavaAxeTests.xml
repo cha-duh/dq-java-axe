@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="JavaAxeTests" time="12.021" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jowens/projects/dq-java-axe/target/test-classes:/Users/jowens/projects/dq-java-axe/target/classes:/Users/jowens/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/jowens/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jowens/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-java/3.9.0/selenium-java-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-api/3.9.0/selenium-api-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.9.0/selenium-chrome-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.9.0/selenium-edge-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.9.0/selenium-firefox-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.9.0/selenium-ie-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.9.0/selenium-opera-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.9.0/selenium-remote-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.9.0/selenium-safari-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-support/3.9.0/selenium-support-3.9.0.jar:/Users/jowens/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jowens/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jowens/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jowens/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/jowens/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/jowens/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jowens/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jowens/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jowens/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jowens/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jowens/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jowens/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jowens/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/jowens/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/jowens/.m2/repository/com/deque/html/axe-core/selenium/4.0.0/selenium-4.0.0.jar:/Users/jowens/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jowens/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/Users/jowens/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jowens/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/jowens/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/jowens/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/jowens/projects/dq-java-axe/target/surefire/surefirebooter664988803565984273.jar /Users/jowens/projects/dq-java-axe/target/surefire 2020-11-23T19-01-00_025-jvmRun1 surefire9129404131479266013tmp surefire_04944937808384926186tmp"/>
+    <property name="surefire.test.class.path" value="/Users/jowens/projects/dq-java-axe/target/test-classes:/Users/jowens/projects/dq-java-axe/target/classes:/Users/jowens/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/jowens/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jowens/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-java/3.9.0/selenium-java-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-api/3.9.0/selenium-api-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.9.0/selenium-chrome-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.9.0/selenium-edge-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.9.0/selenium-firefox-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.9.0/selenium-ie-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.9.0/selenium-opera-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.9.0/selenium-remote-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.9.0/selenium-safari-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-support/3.9.0/selenium-support-3.9.0.jar:/Users/jowens/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jowens/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jowens/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jowens/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/jowens/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/jowens/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jowens/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jowens/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jowens/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jowens/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jowens/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jowens/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jowens/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/jowens/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/jowens/.m2/repository/com/deque/html/axe-core/selenium/4.0.0/selenium-4.0.0.jar:/Users/jowens/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jowens/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/Users/jowens/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jowens/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/jowens/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/jowens/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jowens"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/jowens/projects/dq-java-axe"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jowens/projects/dq-java-axe/target/surefire/surefirebooter664988803565984273.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-ea-b03"/>
+    <property name="user.name" value="jowens"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/jowens/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/wc/7ghc6n_17yn5fy2thjy7_dl9081048/T/"/>
+    <property name="java.version" value="1.8.0_202-ea"/>
+    <property name="user.dir" value="/Users/jowens/projects/dq-java-axe"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jowens/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b03"/>
+    <property name="java.ext.dirs" value="/Users/jowens/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="axe" classname="JavaAxeTests" time="12.002">
+    <failure message="expected:&lt;3&gt; but was:&lt;9&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<3> but was:<9>
+	at JavaAxeTests.axe(JavaAxeTests.java:65)
+]]></failure>
+    <system-out><![CDATA[button-name
+Buttons must have discernible text
+https://dequeuniversity.com/rules/axe/4.0/button-name?application=axeAPI
+
+duplicate-id-active
+IDs of active elements must be unique
+https://dequeuniversity.com/rules/axe/4.0/duplicate-id-active?application=axeAPI
+
+duplicate-id-aria
+IDs used in ARIA and labels must be unique
+https://dequeuniversity.com/rules/axe/4.0/duplicate-id-aria?application=axeAPI
+
+duplicate-id
+id attribute value must be unique
+https://dequeuniversity.com/rules/axe/4.0/duplicate-id?application=axeAPI
+
+frame-title
+Frames must have title attribute
+https://dequeuniversity.com/rules/axe/4.0/frame-title?application=axeAPI
+
+html-has-lang
+<html> element must have a lang attribute
+https://dequeuniversity.com/rules/axe/4.0/html-has-lang?application=axeAPI
+
+image-alt
+Images must have alternate text
+https://dequeuniversity.com/rules/axe/4.0/image-alt?application=axeAPI
+
+label
+Form elements must have labels
+https://dequeuniversity.com/rules/axe/4.0/label?application=axeAPI
+
+link-name
+Links must have discernible text
+https://dequeuniversity.com/rules/axe/4.0/link-name?application=axeAPI
+
+aria-allowed-attr
+Elements must only use allowed ARIA attributes
+https://dequeuniversity.com/rules/axe/4.0/aria-allowed-attr?application=axeAPI
+
+aria-hidden-body
+aria-hidden='true' must not be present on the document body
+https://dequeuniversity.com/rules/axe/4.0/aria-hidden-body?application=axeAPI
+
+aria-hidden-focus
+ARIA hidden element must not contain focusable elements
+https://dequeuniversity.com/rules/axe/4.0/aria-hidden-focus?application=axeAPI
+
+aria-required-attr
+Required ARIA attributes must be provided
+https://dequeuniversity.com/rules/axe/4.0/aria-required-attr?application=axeAPI
+
+aria-required-children
+Certain ARIA roles must contain particular children
+https://dequeuniversity.com/rules/axe/4.0/aria-required-children?application=axeAPI
+
+aria-required-parent
+Certain ARIA roles must be contained by particular parents
+https://dequeuniversity.com/rules/axe/4.0/aria-required-parent?application=axeAPI
+
+aria-roles
+ARIA roles used must conform to valid values
+https://dequeuniversity.com/rules/axe/4.0/aria-roles?application=axeAPI
+
+aria-valid-attr-value
+ARIA attributes must conform to valid values
+https://dequeuniversity.com/rules/axe/4.0/aria-valid-attr-value?application=axeAPI
+
+aria-valid-attr
+ARIA attributes must conform to valid names
+https://dequeuniversity.com/rules/axe/4.0/aria-valid-attr?application=axeAPI
+
+button-name
+Buttons must have discernible text
+https://dequeuniversity.com/rules/axe/4.0/button-name?application=axeAPI
+
+bypass
+Page must have means to bypass repeated blocks
+https://dequeuniversity.com/rules/axe/4.0/bypass?application=axeAPI
+
+document-title
+Documents must have <title> element to aid in navigation
+https://dequeuniversity.com/rules/axe/4.0/document-title?application=axeAPI
+
+duplicate-id-active
+IDs of active elements must be unique
+https://dequeuniversity.com/rules/axe/4.0/duplicate-id-active?application=axeAPI
+
+duplicate-id-aria
+IDs used in ARIA and labels must be unique
+https://dequeuniversity.com/rules/axe/4.0/duplicate-id-aria?application=axeAPI
+
+duplicate-id
+id attribute value must be unique
+https://dequeuniversity.com/rules/axe/4.0/duplicate-id?application=axeAPI
+
+form-field-multiple-labels
+Form field should not have multiple label elements
+https://dequeuniversity.com/rules/axe/4.0/form-field-multiple-labels?application=axeAPI
+
+frame-title
+Frames must have title attribute
+https://dequeuniversity.com/rules/axe/4.0/frame-title?application=axeAPI
+
+html-lang-valid
+<html> element must have a valid value for the lang attribute
+https://dequeuniversity.com/rules/axe/4.0/html-lang-valid?application=axeAPI
+
+image-alt
+Images must have alternate text
+https://dequeuniversity.com/rules/axe/4.0/image-alt?application=axeAPI
+
+input-button-name
+Input buttons must have discernible text
+https://dequeuniversity.com/rules/axe/4.0/input-button-name?application=axeAPI
+
+label
+Form elements must have labels
+https://dequeuniversity.com/rules/axe/4.0/label?application=axeAPI
+
+link-name
+Links must have discernible text
+https://dequeuniversity.com/rules/axe/4.0/link-name?application=axeAPI
+
+list
+<ul> and <ol> must only directly contain <li>, <script> or <template> elements
+https://dequeuniversity.com/rules/axe/4.0/list?application=axeAPI
+
+listitem
+<li> elements must be contained in a <ul> or <ol>
+https://dequeuniversity.com/rules/axe/4.0/listitem?application=axeAPI
+
+td-headers-attr
+All cells in a table element that use the headers attribute must only refer to other cells of that same table
+https://dequeuniversity.com/rules/axe/4.0/td-headers-attr?application=axeAPI
+
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 44003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 23, 2020 7:01:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>
