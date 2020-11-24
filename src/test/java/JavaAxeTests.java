@@ -41,6 +41,8 @@ public class JavaAxeTests {
         WebDriver webDriver = RunEnvironment.getWebDriver();
         webDriver.get("https://dequeuniversity.com/demo/mars/");
 
+
+
         AxeRunOptions runOptions = new AxeRunOptions();
         runOptions.setXPath(true);
 
