@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58e34c5b-f6b0-4b36-a392-1339bc66605b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/JavaAxeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JavaAxeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/JavaAxeTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/JavaAxeTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-JavaAxeTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-JavaAxeTests.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="JavaAxeTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JavaAxeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="74">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2408#2409#0" expanded="true" />
@@ -94,6 +91,11 @@
         <option value="$PROJECT_DIR$/src/test/java/JavaAxeTests.java" />
       </list>
     </option>
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="JavaAxeTests" />
+    </enabled-run-configurations>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -322,15 +324,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_dq-java-axe - 2020.11.23 at 18h 16m 47s.xml">
-      <configuration name="All in dq-java-axe" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_dq-java-axe - 2020.11.23 at 18h 31m 50s.xml">
-      <configuration name="All in dq-java-axe" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_dq-java-axe - 2020.11.23 at 18h 32m 39s.xml">
-      <configuration name="All in dq-java-axe" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JavaAxeTests - 2020.11.23 at 18h 43m 46s.xml">
       <configuration name="JavaAxeTests" configurationId="JUnit" />
     </history-entry>
@@ -350,6 +343,15 @@
       <configuration name="JavaAxeTests" configurationId="JUnit" />
     </history-entry>
     <history-entry file="JavaAxeTests - 2020.11.24 at 15h 42m 10s.xml">
+      <configuration name="JavaAxeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaAxeTests - 2020.11.24 at 15h 57m 53s.xml">
+      <configuration name="JavaAxeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaAxeTests - 2020.11.24 at 15h 59m 12s.xml">
+      <configuration name="JavaAxeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JavaAxeTests - 2020.11.24 at 16h 00m 37s.xml">
       <configuration name="JavaAxeTests" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -497,8 +499,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavaAxeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="74">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2408#2409#0" expanded="true" />

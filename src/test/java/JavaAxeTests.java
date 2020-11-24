@@ -36,7 +36,7 @@ public class JavaAxeTests {
     }
 
     @Test
-    public void axe() {
+    public void axeAnalysis() {
 
         // wait until the main-nav element is loaded or fail
         WebElement mainNav = null;
@@ -60,6 +60,7 @@ public class JavaAxeTests {
         if (vSize > 0) { printUtil("Violations", violations); }
 
         // fail test if there are accessibility violations
+        // (no further specificity requested, so >0 violations is considered a failure)
         Assert.assertEquals(0, vSize);
     }
 
@@ -69,13 +70,14 @@ public class JavaAxeTests {
     }
 
     private void printUtil(String type, List<Rule> items) {
-        String summary = "\nPrinting summary of: ";
-        String rawData = "\nPrinting raw data from: ";
+        String summary = "Printing summary of:";
+        String rawData = "Printing raw data from:";
+        String iSize = Integer.toString(items.size());
+        String summaryOut = String.format("%1$s %2$s %3$s%n", summary, iSize, type);
+        String rawOut = String.format("%1$s %2$s %3$s%n", rawData, iSize, type);
 
         // quick header for type of output
-        System.out.print(summary);
-        System.out.print(type);
-        System.out.println();
+        System.out.println(summaryOut);
 
         // more legible rules
         for (Rule item : items) {
@@ -86,9 +88,7 @@ public class JavaAxeTests {
         }
 
         // dump raw data with header
-        System.out.print(rawData);
-        System.out.print(type);
-        System.out.println();
+        System.out.println(rawOut);
         System.out.println(items.toString());
     }
 }
