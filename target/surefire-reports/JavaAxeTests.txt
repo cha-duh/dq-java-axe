@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: JavaAxeTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.021 s <<< FAILURE! - in JavaAxeTests
-axe(JavaAxeTests)  Time elapsed: 12.002 s  <<< FAILURE!
-java.lang.AssertionError: expected:<3> but was:<9>
-	at JavaAxeTests.axe(JavaAxeTests.java:65)
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.287 s <<< FAILURE! - in JavaAxeTests
+axe(JavaAxeTests)  Time elapsed: 13.262 s  <<< FAILURE!
+java.lang.AssertionError: expected:<0> but was:<14>
+	at JavaAxeTests.axe(JavaAxeTests.java:71)
 

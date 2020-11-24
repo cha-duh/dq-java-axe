@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="JavaAxeTests" time="12.021" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="JavaAxeTests" time="13.287" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/jowens/projects/dq-java-axe/target/surefire/surefirebooter664988803565984273.jar /Users/jowens/projects/dq-java-axe/target/surefire 2020-11-23T19-01-00_025-jvmRun1 surefire9129404131479266013tmp surefire_04944937808384926186tmp"/>
+    <property name="sun.java.command" value="/Users/jowens/projects/dq-java-axe/target/surefire/surefirebooter6574521819730643556.jar /Users/jowens/projects/dq-java-axe/target/surefire 2020-11-24T14-06-53_225-jvmRun1 surefire2277425602405223870tmp surefire_05488337776675046377tmp"/>
     <property name="surefire.test.class.path" value="/Users/jowens/projects/dq-java-axe/target/test-classes:/Users/jowens/projects/dq-java-axe/target/classes:/Users/jowens/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/Users/jowens/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jowens/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-java/3.9.0/selenium-java-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-api/3.9.0/selenium-api-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.9.0/selenium-chrome-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.9.0/selenium-edge-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.9.0/selenium-firefox-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.9.0/selenium-ie-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.9.0/selenium-opera-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.9.0/selenium-remote-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.9.0/selenium-safari-driver-3.9.0.jar:/Users/jowens/.m2/repository/org/seleniumhq/selenium/selenium-support/3.9.0/selenium-support-3.9.0.jar:/Users/jowens/.m2/repository/net/bytebuddy/byte-buddy/1.7.9/byte-buddy-1.7.9.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jowens/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/jowens/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/jowens/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/Users/jowens/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/jowens/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/jowens/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/jowens/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/jowens/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/jowens/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/jowens/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/Users/jowens/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/jowens/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/jowens/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/jowens/.m2/repository/com/deque/html/axe-core/selenium/4.0.0/selenium-4.0.0.jar:/Users/jowens/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/jowens/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/Users/jowens/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/jowens/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/jowens/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/jowens/.m2/repository/org/json/json/20190722/json-20190722.jar:/Users/jowens/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.2/jackson-databind-2.10.2.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.2/jackson-annotations-2.10.2.jar:/Users/jowens/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.2/jackson-core-2.10.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/jowens"/>
@@ -30,7 +30,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/jowens/projects/dq-java-axe/target/surefire/surefirebooter664988803565984273.jar"/>
+    <property name="surefire.real.class.path" value="/Users/jowens/projects/dq-java-axe/target/surefire/surefirebooter6574521819730643556.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_202-ea-b03"/>
@@ -58,13 +58,19 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="axe" classname="JavaAxeTests" time="12.002">
-    <failure message="expected:&lt;3&gt; but was:&lt;9&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<3> but was:<9>
-	at JavaAxeTests.axe(JavaAxeTests.java:65)
+  <testcase name="axe" classname="JavaAxeTests" time="13.262">
+    <failure message="expected:&lt;0&gt; but was:&lt;14&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<0> but was:<14>
+	at JavaAxeTests.axe(JavaAxeTests.java:71)
 ]]></failure>
-    <system-out><![CDATA[button-name
+    <system-out><![CDATA[
+Printing summary of: Violations
+button-name
 Buttons must have discernible text
 https://dequeuniversity.com/rules/axe/4.0/button-name?application=axeAPI
+
+color-contrast
+Elements must have sufficient color contrast
+https://dequeuniversity.com/rules/axe/4.0/color-contrast?application=axeAPI
 
 duplicate-id-active
 IDs of active elements must be unique
@@ -94,116 +100,35 @@ label
 Form elements must have labels
 https://dequeuniversity.com/rules/axe/4.0/label?application=axeAPI
 
-link-name
-Links must have discernible text
-https://dequeuniversity.com/rules/axe/4.0/link-name?application=axeAPI
+landmark-one-main
+Document must have one main landmark
+https://dequeuniversity.com/rules/axe/4.0/landmark-one-main?application=axeAPI
 
-aria-allowed-attr
-Elements must only use allowed ARIA attributes
-https://dequeuniversity.com/rules/axe/4.0/aria-allowed-attr?application=axeAPI
-
-aria-hidden-body
-aria-hidden='true' must not be present on the document body
-https://dequeuniversity.com/rules/axe/4.0/aria-hidden-body?application=axeAPI
-
-aria-hidden-focus
-ARIA hidden element must not contain focusable elements
-https://dequeuniversity.com/rules/axe/4.0/aria-hidden-focus?application=axeAPI
-
-aria-required-attr
-Required ARIA attributes must be provided
-https://dequeuniversity.com/rules/axe/4.0/aria-required-attr?application=axeAPI
-
-aria-required-children
-Certain ARIA roles must contain particular children
-https://dequeuniversity.com/rules/axe/4.0/aria-required-children?application=axeAPI
-
-aria-required-parent
-Certain ARIA roles must be contained by particular parents
-https://dequeuniversity.com/rules/axe/4.0/aria-required-parent?application=axeAPI
-
-aria-roles
-ARIA roles used must conform to valid values
-https://dequeuniversity.com/rules/axe/4.0/aria-roles?application=axeAPI
-
-aria-valid-attr-value
-ARIA attributes must conform to valid values
-https://dequeuniversity.com/rules/axe/4.0/aria-valid-attr-value?application=axeAPI
-
-aria-valid-attr
-ARIA attributes must conform to valid names
-https://dequeuniversity.com/rules/axe/4.0/aria-valid-attr?application=axeAPI
-
-button-name
-Buttons must have discernible text
-https://dequeuniversity.com/rules/axe/4.0/button-name?application=axeAPI
-
-bypass
-Page must have means to bypass repeated blocks
-https://dequeuniversity.com/rules/axe/4.0/bypass?application=axeAPI
-
-document-title
-Documents must have <title> element to aid in navigation
-https://dequeuniversity.com/rules/axe/4.0/document-title?application=axeAPI
-
-duplicate-id-active
-IDs of active elements must be unique
-https://dequeuniversity.com/rules/axe/4.0/duplicate-id-active?application=axeAPI
-
-duplicate-id-aria
-IDs used in ARIA and labels must be unique
-https://dequeuniversity.com/rules/axe/4.0/duplicate-id-aria?application=axeAPI
-
-duplicate-id
-id attribute value must be unique
-https://dequeuniversity.com/rules/axe/4.0/duplicate-id?application=axeAPI
-
-form-field-multiple-labels
-Form field should not have multiple label elements
-https://dequeuniversity.com/rules/axe/4.0/form-field-multiple-labels?application=axeAPI
-
-frame-title
-Frames must have title attribute
-https://dequeuniversity.com/rules/axe/4.0/frame-title?application=axeAPI
-
-html-lang-valid
-<html> element must have a valid value for the lang attribute
-https://dequeuniversity.com/rules/axe/4.0/html-lang-valid?application=axeAPI
-
-image-alt
-Images must have alternate text
-https://dequeuniversity.com/rules/axe/4.0/image-alt?application=axeAPI
-
-input-button-name
-Input buttons must have discernible text
-https://dequeuniversity.com/rules/axe/4.0/input-button-name?application=axeAPI
-
-label
-Form elements must have labels
-https://dequeuniversity.com/rules/axe/4.0/label?application=axeAPI
+landmark-unique
+Ensures landmarks are unique
+https://dequeuniversity.com/rules/axe/4.0/landmark-unique?application=axeAPI
 
 link-name
 Links must have discernible text
 https://dequeuniversity.com/rules/axe/4.0/link-name?application=axeAPI
 
-list
-<ul> and <ol> must only directly contain <li>, <script> or <template> elements
-https://dequeuniversity.com/rules/axe/4.0/list?application=axeAPI
+region
+All page content must be contained by landmarks
+https://dequeuniversity.com/rules/axe/4.0/region?application=axeAPI
 
-listitem
-<li> elements must be contained in a <ul> or <ol>
-https://dequeuniversity.com/rules/axe/4.0/listitem?application=axeAPI
+tabindex
+Elements should not have tabindex greater than zero
+https://dequeuniversity.com/rules/axe/4.0/tabindex?application=axeAPI
 
-td-headers-attr
-All cells in a table element that use the headers attribute must only refer to other cells of that same table
-https://dequeuniversity.com/rules/axe/4.0/td-headers-attr?application=axeAPI
 
+Printing raw data from: Violations
+[Rule{id='button-name', description='Ensures buttons have discernible text', help='Buttons must have discernible text', helpUrl='https://dequeuniversity.com/rules/axe/4.0/button-name?application=axeAPI', impact='critical', tags=[cat.name-role-value, wcag2a, wcag412, section508, section508.22.a], nodes=[com.deque.html.axecore.results.CheckedNode@7d322cad], url='null', createdDate='null'}, Rule{id='color-contrast', description='Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds', help='Elements must have sufficient color contrast', helpUrl='https://dequeuniversity.com/rules/axe/4.0/color-contrast?application=axeAPI', impact='serious', tags=[cat.color, wcag2aa, wcag143], nodes=[com.deque.html.axecore.results.CheckedNode@21be3395, com.deque.html.axecore.results.CheckedNode@4f49f6af, com.deque.html.axecore.results.CheckedNode@78452606, com.deque.html.axecore.results.CheckedNode@147e2ae7, com.deque.html.axecore.results.CheckedNode@448c8166, com.deque.html.axecore.results.CheckedNode@4470fbd6, com.deque.html.axecore.results.CheckedNode@15d49048, com.deque.html.axecore.results.CheckedNode@7098b907, com.deque.html.axecore.results.CheckedNode@503f91c3, com.deque.html.axecore.results.CheckedNode@13526e59, com.deque.html.axecore.results.CheckedNode@2235eaab], url='null', createdDate='null'}, Rule{id='duplicate-id-active', description='Ensures every id attribute value of active elements is unique', help='IDs of active elements must be unique', helpUrl='https://dequeuniversity.com/rules/axe/4.0/duplicate-id-active?application=axeAPI', impact='serious', tags=[cat.parsing, wcag2a, wcag411], nodes=[com.deque.html.axecore.results.CheckedNode@17503f6b, com.deque.html.axecore.results.CheckedNode@3bcd05cb], url='null', createdDate='null'}, Rule{id='duplicate-id-aria', description='Ensures every id attribute value used in ARIA and in labels is unique', help='IDs used in ARIA and labels must be unique', helpUrl='https://dequeuniversity.com/rules/axe/4.0/duplicate-id-aria?application=axeAPI', impact='critical', tags=[cat.parsing, wcag2a, wcag411], nodes=[com.deque.html.axecore.results.CheckedNode@3b6d844d], url='null', createdDate='null'}, Rule{id='duplicate-id', description='Ensures every id attribute value is unique', help='id attribute value must be unique', helpUrl='https://dequeuniversity.com/rules/axe/4.0/duplicate-id?application=axeAPI', impact='minor', tags=[cat.parsing, wcag2a, wcag411], nodes=[com.deque.html.axecore.results.CheckedNode@36804139, com.deque.html.axecore.results.CheckedNode@20bd8be5, com.deque.html.axecore.results.CheckedNode@730d2164, com.deque.html.axecore.results.CheckedNode@24959ca4, com.deque.html.axecore.results.CheckedNode@10289886, com.deque.html.axecore.results.CheckedNode@5c86dbc5, com.deque.html.axecore.results.CheckedNode@461ad730, com.deque.html.axecore.results.CheckedNode@4ee203eb, com.deque.html.axecore.results.CheckedNode@1a5a4e19, com.deque.html.axecore.results.CheckedNode@7068e664], url='null', createdDate='null'}, Rule{id='frame-title', description='Ensures <iframe> and <frame> elements contain a non-empty title attribute', help='Frames must have title attribute', helpUrl='https://dequeuniversity.com/rules/axe/4.0/frame-title?application=axeAPI', impact='serious', tags=[cat.text-alternatives, wcag2a, wcag241, wcag412, section508, section508.22.i], nodes=[com.deque.html.axecore.results.CheckedNode@60db1c0e, com.deque.html.axecore.results.CheckedNode@3e78b6a5], url='null', createdDate='null'}, Rule{id='html-has-lang', description='Ensures every HTML document has a lang attribute', help='<html> element must have a lang attribute', helpUrl='https://dequeuniversity.com/rules/axe/4.0/html-has-lang?application=axeAPI', impact='serious', tags=[cat.language, wcag2a, wcag311, ACT], nodes=[com.deque.html.axecore.results.CheckedNode@769a1df5], url='null', createdDate='null'}, Rule{id='image-alt', description='Ensures <img> elements have alternate text or a role of none or presentation', help='Images must have alternate text', helpUrl='https://dequeuniversity.com/rules/axe/4.0/image-alt?application=axeAPI', impact='critical', tags=[cat.text-alternatives, wcag2a, wcag111, section508, section508.22.a], nodes=[com.deque.html.axecore.results.CheckedNode@41f69e84, com.deque.html.axecore.results.CheckedNode@7975d1d8, com.deque.html.axecore.results.CheckedNode@2438dcd, com.deque.html.axecore.results.CheckedNode@24105dc5], url='null', createdDate='null'}, Rule{id='label', description='Ensures every form element has a label', help='Form elements must have labels', helpUrl='https://dequeuniversity.com/rules/axe/4.0/label?application=axeAPI', impact='critical', tags=[cat.forms, wcag2a, wcag412, wcag131, section508, section508.22.n], nodes=[com.deque.html.axecore.results.CheckedNode@5167f57d, com.deque.html.axecore.results.CheckedNode@64b0598, com.deque.html.axecore.results.CheckedNode@18f8cd79], url='null', createdDate='null'}, Rule{id='landmark-one-main', description='Ensures the document has a main landmark', help='Document must have one main landmark', helpUrl='https://dequeuniversity.com/rules/axe/4.0/landmark-one-main?application=axeAPI', impact='moderate', tags=[cat.semantics, best-practice], nodes=[com.deque.html.axecore.results.CheckedNode@3e2055d6, com.deque.html.axecore.results.CheckedNode@50029372, com.deque.html.axecore.results.CheckedNode@e3b3b2f, com.deque.html.axecore.results.CheckedNode@50f6ac94], url='null', createdDate='null'}, Rule{id='landmark-unique', description='Landmarks must have a unique role or role/label/title (i.e. accessible name) combination', help='Ensures landmarks are unique', helpUrl='https://dequeuniversity.com/rules/axe/4.0/landmark-unique?application=axeAPI', impact='moderate', tags=[cat.semantics, best-practice], nodes=[com.deque.html.axecore.results.CheckedNode@6cc4cdb9], url='null', createdDate='null'}, Rule{id='link-name', description='Ensures links have discernible text', help='Links must have discernible text', helpUrl='https://dequeuniversity.com/rules/axe/4.0/link-name?application=axeAPI', impact='serious', tags=[cat.name-role-value, wcag2a, wcag412, wcag244, section508, section508.22.a], nodes=[com.deque.html.axecore.results.CheckedNode@28194a50, com.deque.html.axecore.results.CheckedNode@7f2cfe3f, com.deque.html.axecore.results.CheckedNode@1a5b6f42, com.deque.html.axecore.results.CheckedNode@5038d0b5, com.deque.html.axecore.results.CheckedNode@32115b28, com.deque.html.axecore.results.CheckedNode@2ad48653, com.deque.html.axecore.results.CheckedNode@6bb4dd34, com.deque.html.axecore.results.CheckedNode@7d9f158f, com.deque.html.axecore.results.CheckedNode@45efd90f, com.deque.html.axecore.results.CheckedNode@4b8729ff, com.deque.html.axecore.results.CheckedNode@61710c6], url='null', createdDate='null'}, Rule{id='region', description='Ensures all page content is contained by landmarks', help='All page content must be contained by landmarks', helpUrl='https://dequeuniversity.com/rules/axe/4.0/region?application=axeAPI', impact='moderate', tags=[cat.keyboard, best-practice], nodes=[com.deque.html.axecore.results.CheckedNode@3214ee6, com.deque.html.axecore.results.CheckedNode@383dc82c, com.deque.html.axecore.results.CheckedNode@4a07d605, com.deque.html.axecore.results.CheckedNode@74287ea3, com.deque.html.axecore.results.CheckedNode@7d7758be, com.deque.html.axecore.results.CheckedNode@2bdd8394, com.deque.html.axecore.results.CheckedNode@5f9edf14, com.deque.html.axecore.results.CheckedNode@68746f22, com.deque.html.axecore.results.CheckedNode@2f01783a, com.deque.html.axecore.results.CheckedNode@68878f6d, com.deque.html.axecore.results.CheckedNode@41488b16, com.deque.html.axecore.results.CheckedNode@a8ef162, com.deque.html.axecore.results.CheckedNode@2eea88a1, com.deque.html.axecore.results.CheckedNode@7ac296f6, com.deque.html.axecore.results.CheckedNode@7fd7a283, com.deque.html.axecore.results.CheckedNode@22f59fa, com.deque.html.axecore.results.CheckedNode@78fa769e, com.deque.html.axecore.results.CheckedNode@16612a51, com.deque.html.axecore.results.CheckedNode@54e041a4, com.deque.html.axecore.results.CheckedNode@2c78324b, com.deque.html.axecore.results.CheckedNode@79defdc, com.deque.html.axecore.results.CheckedNode@18317edc, com.deque.html.axecore.results.CheckedNode@4e0ae11f, com.deque.html.axecore.results.CheckedNode@238d68ff, com.deque.html.axecore.results.CheckedNode@4b86805d, com.deque.html.axecore.results.CheckedNode@5852c06f, com.deque.html.axecore.results.CheckedNode@4149c063, com.deque.html.axecore.results.CheckedNode@9cb8225, com.deque.html.axecore.results.CheckedNode@76b07f29, com.deque.html.axecore.results.CheckedNode@38af9828, com.deque.html.axecore.results.CheckedNode@376a0d86, com.deque.html.axecore.results.CheckedNode@62656be4, com.deque.html.axecore.results.CheckedNode@17d919b6, com.deque.html.axecore.results.CheckedNode@53f3bdbd, com.deque.html.axecore.results.CheckedNode@34129c78, com.deque.html.axecore.results.CheckedNode@7d61eb55, com.deque.html.axecore.results.CheckedNode@222a59e6], url='null', createdDate='null'}, Rule{id='tabindex', description='Ensures tabindex attribute values are not greater than 0', help='Elements should not have tabindex greater than zero', helpUrl='https://dequeuniversity.com/rules/axe/4.0/tabindex?application=axeAPI', impact='serious', tags=[cat.keyboard, best-practice], nodes=[com.deque.html.axecore.results.CheckedNode@6c7a164b, com.deque.html.axecore.results.CheckedNode@4c2bb6e0, com.deque.html.axecore.results.CheckedNode@3e62d773, com.deque.html.axecore.results.CheckedNode@4ef74c30], url='null', createdDate='null'}]
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 44003
+    <system-err><![CDATA[Starting ChromeDriver 87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355}) on port 7250
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Nov 23, 2020 7:01:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Nov 24, 2020 2:06:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
